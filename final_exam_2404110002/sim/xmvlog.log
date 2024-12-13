@@ -1,0 +1,15 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Dec 06, 2024 at 14:09:39 KST
+xmvlog
+    -MESS
+    -linedebug
+    ../src/adder.v
+    ../src/tb_adder.v
+
+file: ../src/adder.v
+	module work_lib.adder
+		errors: 0, warnings: 0
+file: ../src/tb_adder.v
+	module work_lib.tb_adder
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Dec 06, 2024 at 14:09:39 KST  (total: 00:00:00)
